@@ -9,7 +9,7 @@ C_COMMIT="8c0a9b4459f5200a24ab9e687a3fb32e975382e5"
 
 V8_VER="9.5.172"
 V8_COMMIT="4a03d61accede9dd0e3e6dc0456ff5a0e3f792b4"
-MEMSAVER_FACTOR=4000000
+MEMSAVER_FACTOR=8000000
 inherit multiprocessing python-any-r1 qt5-build memsaver
 
 DESCRIPTION="Library for rendering dynamic web content in Qt5 C++ and QML applications"
@@ -100,6 +100,9 @@ src_unpack() {
 	default
 	rm -rf "${S}"/src/3rdparty
 	mv qtwebengine-chromium-* "${S}"/src/3rdparty || die
+
+	rm -rf "${S}"/src/3rdparty/chromium/v8
+	mv v8-* "${S}"/src/3rdparty/chromium/v8 || die
 }
 
 src_prepare() {
