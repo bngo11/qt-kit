@@ -7,11 +7,11 @@ inherit distutils-r1
 
 DESCRIPTION="The sip module support for PyQt5"
 HOMEPAGE="https://github.com/Python-SIP/sip https://pypi.org/project/PyQt5-sip/"
-SRC_URI="https://files.pythonhosted.org/packages/ea/08/88a20c862f40b5c178c517cdc7e93767967dec5ac1b994e226d517991c9b/pyqt5_sip-12.17.1.tar.gz -> pyqt5_sip-12.17.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/4a/195cf4d2a7e1ff480b4cabcd51aa5c0068c03a19a97282317536e4a82e1e/pyqt5_sip-12.17.2.tar.gz -> pyqt5_sip-12.17.2.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/PyQt5_sip-12.17.1"
+S="${WORKDIR}/PyQt5_sip-12.17.2"
