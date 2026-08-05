@@ -8,6 +8,6 @@ KEYWORDS=*
 RDEPEND=python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_12(-)?,python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_12(-),-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 REQUIRED_USE=|| ( python_targets_python3_12 python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/f3/31/5ef342de9faee0f3801088946ae103db9b9eaeba3d6a64fefd5ce74df244/pyqt5_sip-12.18.0.tar.gz -> pyqt5_sip-12.18.0.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/0d/9d/5179b8e619fe084218a87f963f1648cba4c5aa5bb98dd5661d2cbb9eb1e4/pyqt5_sip-12.19.0.tar.gz -> pyqt5_sip-12.19.0.tar.gz
 _eclasses_=distutils-r1	0bb17ad57b19f436c3852b0897ad7a08	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	c57a84554d3dca7c828e40d877b2dd7d	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=88618591dd1040da28c92fc208e0e416
+_md5_=c7a7dea4d119ab70f0232271aa7ed7e9
